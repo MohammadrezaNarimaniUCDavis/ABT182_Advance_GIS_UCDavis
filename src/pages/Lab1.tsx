@@ -3,7 +3,9 @@ import { ArrowLeft, Download, Code, BookOpen, ExternalLink, PlayCircle, FileText
 import { motion } from 'framer-motion'
 
 const Lab1 = () => {
-  const notebookPath = '/code/colab/Week1/ABT182_hw1_2026.ipynb'
+  // Use base path for production (GitHub Pages), empty for development
+  const basePath = import.meta.env.PROD ? '/ABT182_Advance_GIS_UCDavis' : ''
+  const notebookPath = `${basePath}/code/colab/Week1/ABT182_hw1_2026.ipynb`
 
   const handleDownload = () => {
     const link = document.createElement('a')
