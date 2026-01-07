@@ -1,4 +1,4 @@
-import { Calendar, MapPin, Users, Code, GraduationCap } from 'lucide-react'
+import { Calendar, MapPin, Users, Code } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { courseInfo, instructor, tas, weeks } from '../data/courseData'
 import WeekCard from '../components/WeekCard'
@@ -141,8 +141,12 @@ const Home = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="flex items-start space-x-6">
-              <div className="bg-ucd-blue text-white rounded-full w-16 h-16 flex items-center justify-center flex-shrink-0">
-                <GraduationCap className="h-8 w-8" />
+              <div className="flex-shrink-0">
+                <img 
+                  src="/images/Instructors/Ali_Moghimi.jpg" 
+                  alt={instructor.name}
+                  className="w-24 h-24 rounded-full object-cover border-4 border-ucd-blue shadow-lg"
+                />
               </div>
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-ucd-blue mb-2">
@@ -187,9 +191,23 @@ const Home = () => {
                 <div className="absolute top-0 right-0 w-24 h-24 bg-ucd-gold opacity-5 rounded-full -mr-12 -mt-12"></div>
                 <div className="relative z-10">
                 <div className="flex items-center mb-4">
-                  <div className="bg-ucd-gold text-ucd-blue rounded-full w-12 h-12 flex items-center justify-center flex-shrink-0">
-                    <Users className="h-6 w-6" />
-                  </div>
+                  {ta.name === 'Mohammadreza Narimani' ? (
+                    <img 
+                      src="/images/Instructors/Mohammadreza_Narimani.jpg" 
+                      alt={ta.name}
+                      className="w-16 h-16 rounded-full object-cover border-2 border-ucd-gold shadow-md flex-shrink-0"
+                    />
+                  ) : ta.name === 'Parastoo Farajpoor' ? (
+                    <img 
+                      src="/images/Instructors/Parastoo_Farajpoor.jpg" 
+                      alt={ta.name}
+                      className="w-16 h-16 rounded-full object-cover border-2 border-ucd-gold shadow-md flex-shrink-0"
+                    />
+                  ) : (
+                    <div className="bg-ucd-gold text-ucd-blue rounded-full w-16 h-16 flex items-center justify-center flex-shrink-0 border-2 border-ucd-blue">
+                      <Users className="h-8 w-8" />
+                    </div>
+                  )}
                   <div className="ml-4">
                     <h3 className="font-bold text-lg text-ucd-blue">{ta.name}</h3>
                     <p className="text-sm text-gray-600">
