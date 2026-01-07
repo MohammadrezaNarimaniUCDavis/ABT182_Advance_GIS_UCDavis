@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Calendar, BookOpen, ArrowRight, Lock } from 'lucide-react'
+import { BookOpen, ArrowRight, Lock } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { Week } from '../data/courseData'
 

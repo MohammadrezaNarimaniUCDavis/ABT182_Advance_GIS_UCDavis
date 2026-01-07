@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, Code, Map, BookOpen, Clock } from 'lucide-react'
+import { ArrowLeft, Code, Map, BookOpen } from 'lucide-react'
 import { weeks } from '../data/courseData'
 
 const LabSession = () => {

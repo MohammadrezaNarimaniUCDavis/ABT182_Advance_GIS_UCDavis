@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Code, Map, ArrowRight, Clock } from 'lucide-react'
+import { Code, Map, ArrowRight } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { LabSession } from '../data/courseData'
 

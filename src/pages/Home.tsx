@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import { Calendar, MapPin, Users, BookOpen, Code, Map, GraduationCap } from 'lucide-react'
+import { Calendar, MapPin, Users, Code, GraduationCap } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { courseInfo, instructor, tas, weeks } from '../data/courseData'
 import WeekCard from '../components/WeekCard'
