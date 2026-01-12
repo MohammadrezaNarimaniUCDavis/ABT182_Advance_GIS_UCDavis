@@ -23,12 +23,24 @@ function RedirectHandler() {
   return null
 }
 
+// Component to scroll to top on route change
+function ScrollToTop() {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
+  return null
+}
+
 function App() {
   // Use basename only in production (GitHub Pages), not in development
   const basename = import.meta.env.PROD ? '/ABT182_Advance_GIS_UCDavis' : ''
   
   return (
     <Router basename={basename}>
+      <ScrollToTop />
       <RedirectHandler />
       <div className="min-h-screen flex flex-col">
         <Navbar />
