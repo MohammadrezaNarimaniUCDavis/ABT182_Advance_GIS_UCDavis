@@ -143,19 +143,19 @@ const Lab1 = () => {
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-[95%] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-12">
         
         {/* 1. Intro to Colab */}
         <Section title="Getting Started with Google Colab">
-          <div className="space-y-6">
-            <p className="text-gray-600">
+          <div className="space-y-8">
+            <p className="text-gray-600 text-lg max-w-3xl">
               Before coding, familiarize yourself with the Google Colab environment. It allows you to write and execute Python code in your browser with zero configuration.
             </p>
             
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid lg:grid-cols-2 gap-8">
               {/* Video 1 */}
               <div className="space-y-3">
-                <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden shadow-md">
+                <div className="aspect-video bg-gray-100 rounded-xl overflow-hidden shadow-md">
                   <iframe 
                     width="100%" 
                     height="100%" 
@@ -167,14 +167,14 @@ const Lab1 = () => {
                   ></iframe>
                 </div>
                 <div className="flex justify-between items-center px-1">
-                  <span className="text-sm font-semibold text-gray-700">Intro to Google Colab</span>
+                  <span className="font-semibold text-gray-700">Intro to Google Colab</span>
                   <ResourceLink href="https://www.youtube.com/watch?v=inN8seMm7UI" text="Watch on YouTube" />
                 </div>
               </div>
 
               {/* Video 2 */}
               <div className="space-y-3">
-                <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden shadow-md">
+                <div className="aspect-video bg-gray-100 rounded-xl overflow-hidden shadow-md">
                   <iframe 
                     width="100%" 
                     height="100%" 
@@ -186,14 +186,14 @@ const Lab1 = () => {
                   ></iframe>
                 </div>
                 <div className="flex justify-between items-center px-1">
-                  <span className="text-sm font-semibold text-gray-700">Detailed Tutorial</span>
+                  <span className="font-semibold text-gray-700">Detailed Tutorial</span>
                   <ResourceLink href="https://www.youtube.com/watch?v=RLYoEyIHL6A" text="Watch on YouTube" />
                 </div>
               </div>
             </div>
 
-            <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-ucd-blue mt-4">
-              <h4 className="font-bold text-ucd-blue mb-2 flex items-center"><FileText className="w-4 h-4 mr-2"/> Essential Reading</h4>
+            <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-ucd-blue mt-6">
+              <h4 className="text-lg font-bold text-ucd-blue mb-2 flex items-center"><FileText className="w-5 h-5 mr-2"/> Essential Reading</h4>
               <ResourceLink href="https://bytexd.com/what-is-google-colab-a-beginner-guide/" text="Beginner's Guide to Colab Interface & Features" />
             </div>
           </div>
@@ -201,15 +201,20 @@ const Lab1 = () => {
 
         {/* 2. Input & Output */}
         <Section title="Input & Output">
-          <div className="space-y-8">
+          <div className="grid lg:grid-cols-2 gap-12">
             {/* Input */}
-            <div>
-              <h3 className="font-bold text-lg text-gray-800 flex items-center mb-2">
-                <Type className="w-5 h-5 mr-2 text-ucd-blue" /> User Input
-              </h3>
-              <p className="text-gray-600 text-sm mb-3">
-                The <code>input()</code> function allows you to get data from the user. It <strong>always returns a string</strong>.
-              </p>
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-bold text-xl text-gray-800 flex items-center mb-2">
+                  <Type className="w-6 h-6 mr-2 text-ucd-blue" /> User Input
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  The <code>input()</code> function allows you to get data from the user. It <strong>always returns a string</strong>.
+                </p>
+                <div className="mt-2 mb-4">
+                  <ResourceLink href="https://www.w3schools.com/python/ref_func_input.asp" text="W3Schools: input() Reference" />
+                </div>
+              </div>
               <CodeBlock 
                 code={`# Asking for satellite sensor name
 sensor = input('Enter sensor name:')
@@ -217,19 +222,21 @@ print('Processing data from ' + sensor)`}
                 output={`Enter sensor name: Sentinel-2
 Processing data from Sentinel-2`} 
               />
-              <div className="mt-2">
-                <ResourceLink href="https://www.w3schools.com/python/ref_func_input.asp" text="W3Schools: input() Reference" />
-              </div>
             </div>
 
             {/* Print */}
-            <div>
-              <h3 className="font-bold text-lg text-gray-800 flex items-center mb-2">
-                <Terminal className="w-5 h-5 mr-2 text-ucd-blue" /> Printing Output
-              </h3>
-              <p className="text-gray-600 text-sm mb-3">
-                The <code>print()</code> function displays output to the screen. You can print multiple objects by separating them with commas.
-              </p>
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-bold text-xl text-gray-800 flex items-center mb-2">
+                  <Terminal className="w-6 h-6 mr-2 text-ucd-blue" /> Printing Output
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  The <code>print()</code> function displays output to the screen. You can print multiple objects by separating them with commas.
+                </p>
+                <div className="mt-2 mb-4">
+                  <ResourceLink href="https://www.w3schools.com/python/ref_func_print.asp" text="W3Schools: print() Reference" />
+                </div>
+              </div>
               <CodeBlock 
                 code={`# Printing GIS metadata
 satellite = "Landsat 8"
@@ -237,59 +244,64 @@ bands = 11
 print("Satellite:", satellite, "| Total Bands:", bands)`} 
                 output={`Satellite: Landsat 8 | Total Bands: 11`} 
               />
-              <div className="mt-2">
-                <ResourceLink href="https://www.w3schools.com/python/ref_func_print.asp" text="W3Schools: print() Reference" />
-              </div>
             </div>
           </div>
         </Section>
 
         {/* 3. F-Strings */}
         <Section title="String Formatting (F-Strings)">
-          <div className="mb-6">
-            <p className="text-gray-600 max-w-2xl mb-4">
-              F-strings (introduced in Python 3.6) are the modern way to embed variables directly into strings. 
-              Prefix your string with <code>f</code> and put variables in curly braces <code>{`{}`}</code>.
-            </p>
-            
-            <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400 text-sm text-yellow-800 mb-6">
-              <h4 className="font-bold mb-2">Why use F-Strings?</h4>
-              <ul className="list-disc list-inside space-y-1">
-                <li>Cleaner and more readable syntax</li>
-                <li>Faster than old <code>%</code> formatting</li>
-                <li>Can evaluate expressions like <code>{`{5 * 2}`}</code> directly inside</li>
-              </ul>
+          <div className="grid lg:grid-cols-12 gap-12">
+            <div className="lg:col-span-5 space-y-6">
+              <p className="text-gray-600 text-lg">
+                F-strings (introduced in Python 3.6) are the modern way to embed variables directly into strings. 
+                Prefix your string with <code>f</code> and put variables in curly braces <code>{`{}`}</code>.
+              </p>
+              
+              <div className="bg-yellow-50 p-6 rounded-xl border-l-4 border-yellow-400 text-yellow-900">
+                <h4 className="font-bold text-lg mb-3">Why use F-Strings?</h4>
+                <ul className="list-disc list-inside space-y-2">
+                  <li>Cleaner and more readable syntax</li>
+                  <li>Faster than old <code>%</code> formatting</li>
+                  <li>Can evaluate expressions like <code>{`{5 * 2}`}</code> directly inside</li>
+                </ul>
+              </div>
+              
+              <div>
+                <ResourceLink href="https://www.geeksforgeeks.org/formatted-string-literals-f-strings-python/" text="GeeksForGeeks: F-Strings Guide" />
+              </div>
             </div>
-          </div>
 
-          <div>
-            <CodeBlock 
-              code={`# GIS Example
+            <div className="lg:col-span-7">
+              <CodeBlock 
+                code={`# GIS Example
 location = "Davis, CA"
 elevation = 16
 
 # Embed variables directly
 print(f"The elevation of {location} is {elevation} meters.")`} 
-              output="The elevation of Davis, CA is 16 meters." 
-            />
-            <div className="mt-2">
-              <ResourceLink href="https://www.geeksforgeeks.org/formatted-string-literals-f-strings-python/" text="GeeksForGeeks: F-Strings Guide" />
+                output="The elevation of Davis, CA is 16 meters." 
+              />
             </div>
           </div>
         </Section>
 
         {/* 4. Math & Type Casting */}
         <Section title="Math & Type Conversion">
-          <div className="space-y-8">
+          <div className="grid lg:grid-cols-2 gap-12">
             {/* Float Conversion */}
-            <div>
-              <h3 className="font-bold text-lg text-gray-800 flex items-center mb-2">
-                <Calculator className="w-5 h-5 mr-2 text-ucd-blue" /> Converting Input to Numbers
-              </h3>
-              <p className="text-gray-600 text-sm mb-3">
-                Since <code>input()</code> returns text (string), you MUST convert it to a number before doing math. 
-                Use <code>float()</code> for decimals (like coordinates) or <code>int()</code> for whole numbers.
-              </p>
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-bold text-xl text-gray-800 flex items-center mb-2">
+                  <Calculator className="w-6 h-6 mr-2 text-ucd-blue" /> Converting Input to Numbers
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  Since <code>input()</code> returns text (string), you MUST convert it to a number before doing math. 
+                  Use <code>float()</code> for decimals (like coordinates) or <code>int()</code> for whole numbers.
+                </p>
+                <div className="mt-2 mb-4">
+                  <ResourceLink href="https://www.includehelp.com/python/read-input-as-a-float.aspx" text="IncludeHelp: Reading Float Input" />
+                </div>
+              </div>
               <CodeBlock 
                 code={`# Calculate NDVI (Normalized Difference Vegetation Index)
 # Formula: (NIR - Red) / (NIR + Red)
@@ -303,28 +315,27 @@ print(f"Calculated NDVI: {ndvi}")`}
 Enter Red value: 0.1
 Calculated NDVI: 0.7142857142857143`} 
               />
-              <div className="mt-2">
-                <ResourceLink href="https://www.includehelp.com/python/read-input-as-a-float.aspx" text="IncludeHelp: Reading Float Input" />
-              </div>
             </div>
 
             {/* Rounding */}
-            <div>
-              <h3 className="font-bold text-lg text-gray-800 flex items-center mb-2">
-                <CheckSquare className="w-5 h-5 mr-2 text-ucd-blue" /> Rounding Numbers
-              </h3>
-              <p className="text-gray-600 text-sm mb-3">
-                Use <code>round(number, digits)</code> to keep your output clean.
-              </p>
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-bold text-xl text-gray-800 flex items-center mb-2">
+                  <CheckSquare className="w-6 h-6 mr-2 text-ucd-blue" /> Rounding Numbers
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  Use <code>round(number, digits)</code> to keep your output clean.
+                </p>
+                <div className="mt-2 mb-4">
+                  <ResourceLink href="https://www.w3schools.com/python/ref_func_round.asp" text="W3Schools: round() Function" />
+                </div>
+              </div>
               <CodeBlock 
                 code={`# Rounding the NDVI result
 clean_ndvi = round(0.7142857142857143, 2)
 print(f"Clean NDVI: {clean_ndvi}")`} 
                 output="Clean NDVI: 0.71" 
               />
-              <div className="mt-2">
-                <ResourceLink href="https://www.w3schools.com/python/ref_func_round.asp" text="W3Schools: round() Function" />
-              </div>
             </div>
           </div>
         </Section>
