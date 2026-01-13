@@ -33,6 +33,39 @@ const Lab1 = () => {
       }, 800)
     }
 
+    const highlightSyntax = (code: string) => {
+      const parts = code.split(/(\n)/g); // Split by newline but keep it
+      return parts.map((line, i) => {
+        if (line === '\n') return '\n';
+        
+        // Comments
+        if (line.trim().startsWith('#')) {
+          return <span key={i} className="text-green-400">{line}</span>;
+        }
+
+        // Simple tokenization for other parts
+        // This is a basic implementation and not a full lexer
+        const tokens = line.split(/(\s+|[(){}=+\-*/,])/g);
+        
+        return (
+          <span key={i}>
+            {tokens.map((token, j) => {
+              // Strings (basic check for quotes)
+              if (token.startsWith('"') || token.startsWith("'")) return <span key={j} className="text-yellow-300">{token}</span>;
+              
+              // Numbers
+              if (/^\d+(\.\d+)?$/.test(token)) return <span key={j} className="text-blue-300">{token}</span>;
+              
+              // Keywords and built-ins
+              if (['print', 'input', 'float', 'int', 'round'].includes(token)) return <span key={j} className="text-purple-400">{token}</span>;
+              
+              return <span key={j} className="text-gray-100">{token}</span>;
+            })}
+          </span>
+        );
+      });
+    };
+
     return (
       <div className="bg-gray-900 rounded-lg overflow-hidden my-4 shadow-lg border border-gray-700">
         <div className="bg-gray-800 px-4 py-2 flex items-center justify-between border-b border-gray-700">
@@ -60,8 +93,8 @@ const Lab1 = () => {
           </div>
         </div>
         <div className="p-4 overflow-x-auto relative">
-          <pre className="text-gray-100 font-mono text-sm leading-relaxed whitespace-pre-wrap">
-            {code}
+          <pre className="font-mono text-sm leading-relaxed whitespace-pre-wrap">
+            {highlightSyntax(code)}
           </pre>
         </div>
         {showOutput && output && (
