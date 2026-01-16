@@ -38,3 +38,6 @@ Thumbs.db
 # docs/**/*.pdf (uncomment if you want to ignore PDFs)
 # assets/**/*.pdf (uncomment if you want to ignore PDFs)
 
+# Large data folders
+code/colab/Week3/Data_High_Volume/
+

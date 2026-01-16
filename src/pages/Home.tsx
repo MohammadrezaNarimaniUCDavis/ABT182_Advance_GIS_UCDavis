@@ -230,6 +230,19 @@ const Home = () => {
                           onError={() => handleImageError('parastoo')}
                         />
                       )
+                    ) : ta.name === 'Inseon Kim' ? (
+                      imageErrors['inseon'] ? (
+                        <div className="bg-ucd-gold text-ucd-blue rounded-full w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center flex-shrink-0 border-4 border-ucd-gold shadow-lg">
+                          <Users className="h-10 w-10 sm:h-12 sm:w-12" />
+                        </div>
+                      ) : (
+                        <img 
+                          src={`${import.meta.env.BASE_URL}images/Instructors/Inseon_Kim.png`}
+                          alt={ta.name}
+                          className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border-4 border-ucd-gold shadow-lg"
+                          onError={() => handleImageError('inseon')}
+                        />
+                      )
                     ) : (
                       <div className="bg-ucd-gold text-ucd-blue rounded-full w-20 h-20 sm:w-24 sm:h-24 flex items-center justify-center flex-shrink-0 border-4 border-ucd-blue shadow-lg">
                         <Users className="h-10 w-10 sm:h-12 sm:w-12" />
