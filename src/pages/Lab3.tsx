@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowLeft, Download, RefreshCw, Play, Terminal, Database, Repeat, Scissors, CheckSquare, FileText, Image as ImageIcon } from 'lucide-react'
-import { motion } from 'framer-motion'
-import { useState } from 'react'
+import { ArrowLeft, Download, RefreshCw, Database, Repeat, Scissors, CheckSquare, FileText, Image as ImageIcon } from 'lucide-react'
 import QASection from '../components/QASection'
 import { CodeBlock, Section, ResourceLink } from '../components/LessonComponents'
 
