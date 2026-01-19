@@ -7,6 +7,7 @@ import Week from './pages/Week'
 import LabSession from './pages/LabSession'
 import Lab1 from './pages/Lab1'
 import Lab2 from './pages/Lab2'
+import Lab3 from './pages/Lab3'
 
 // Component to handle 404.html redirects from GitHub Pages
 function RedirectHandler() {
@@ -50,6 +51,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/week/1" element={<Lab1 />} />
             <Route path="/week/2" element={<Lab2 />} />
+            <Route path="/week/3" element={<Lab3 />} />
             <Route path="/week/:weekNumber" element={<Week />} />
             <Route path="/week/:weekNumber/session/:sessionNumber" element={<LabSession />} />
           </Routes>
