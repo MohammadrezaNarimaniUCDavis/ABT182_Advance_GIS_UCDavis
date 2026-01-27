@@ -40,12 +40,12 @@ const Lab2 = () => {
             </div>
             <button
               onClick={handleDownload}
-              className="group flex items-center bg-ucd-gold hover:bg-white text-ucd-blue px-6 py-4 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+              className="group flex items-center bg-ucd-gold hover:bg-white text-ucd-blue px-4 py-3 md:px-6 md:py-4 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 w-full md:w-auto"
             >
-              <Download className="h-5 w-5 mr-3 group-hover:scale-110 transition-transform" />
-              <div className="text-left">
+              <Download className="h-5 w-5 mr-3 flex-shrink-0 group-hover:scale-110 transition-transform" />
+              <div className="text-left min-w-0 flex-1">
                 <div className="text-xs uppercase opacity-80">Download Notebook</div>
-                <div className="text-lg">ABT182_Lab2.ipynb</div>
+                <div className="text-sm md:text-lg truncate">ABT182_Lab2.ipynb</div>
               </div>
             </button>
           </div>

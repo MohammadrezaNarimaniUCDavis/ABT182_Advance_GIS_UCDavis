@@ -42,25 +42,25 @@ const Lab3 = () => {
                 Master loops, NumPy arrays, and conditional statements to process multispectral imagery and analyze geospatial data.
               </p>
             </div>
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 w-full md:w-auto">
               <button
                 onClick={handleDownload}
-                className="group flex items-center bg-ucd-gold hover:bg-white text-ucd-blue px-6 py-4 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                className="group flex items-center bg-ucd-gold hover:bg-white text-ucd-blue px-4 py-3 md:px-6 md:py-4 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 w-full md:w-auto"
               >
-                <Download className="h-5 w-5 mr-3 group-hover:scale-110 transition-transform" />
-                <div className="text-left">
+                <Download className="h-5 w-5 mr-3 flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <div className="text-left min-w-0 flex-1">
                   <div className="text-xs uppercase opacity-80">Download Notebook</div>
-                  <div className="text-lg">ABT182_Lab3_loops_np_array.ipynb</div>
+                  <div className="text-sm md:text-lg truncate">ABT182_Lab3_loops_np_array.ipynb</div>
                 </div>
               </button>
               <button
                 onClick={handleDataDownload}
-                className="group flex items-center bg-white/10 hover:bg-white/20 text-white border-2 border-white/30 hover:border-white px-6 py-4 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                className="group flex items-center bg-white/10 hover:bg-white/20 text-white border-2 border-white/30 hover:border-white px-4 py-3 md:px-6 md:py-4 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 w-full md:w-auto"
               >
-                <FolderDown className="h-5 w-5 mr-3 group-hover:scale-110 transition-transform" />
-                <div className="text-left">
+                <FolderDown className="h-5 w-5 mr-3 flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <div className="text-left min-w-0 flex-1">
                   <div className="text-xs uppercase opacity-80">Download Data</div>
-                  <div className="text-lg">Lab 3 Dataset</div>
+                  <div className="text-sm md:text-lg">Lab 3 Dataset</div>
                 </div>
               </button>
             </div>
@@ -73,34 +73,34 @@ const Lab3 = () => {
         {/* Introduction: Sentinel-2 Dataset */}
         <Section title="Our Dataset: Sentinel-2 Imagery of Davis, California">
           <div className="space-y-6">
-            <p className="text-gray-600 text-lg max-w-3xl">
+            <p className="text-gray-600 text-lg max-w-4xl lg:max-w-5xl xl:max-w-6xl">
               Throughout this tutorial, we'll work with <strong>real Sentinel-2 multispectral satellite imagery</strong> showing 
               agricultural fields, bare soil areas, and a river in <strong>Davis, California</strong>. 
               This dataset demonstrates practical GIS applications using actual remote sensing data.
             </p>
             
             {/* Download Link */}
-            <div className="bg-blue-50 border-l-4 border-ucd-blue p-6 rounded-lg max-w-5xl mx-auto">
+            <div className="bg-blue-50 border-l-4 border-ucd-blue p-4 md:p-6 rounded-lg max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto">
               <div className="flex items-start">
-                <Download className="w-6 h-6 text-ucd-blue mr-3 mt-1 flex-shrink-0" />
-                <div>
-                  <h4 className="font-bold text-lg text-gray-800 mb-2">Download the Dataset</h4>
-                  <p className="text-gray-700 mb-3">
+                <Download className="w-5 h-5 md:w-6 md:h-6 text-ucd-blue mr-3 mt-1 flex-shrink-0" />
+                <div className="min-w-0 flex-1">
+                  <h4 className="font-bold text-base md:text-lg text-gray-800 mb-2">Download the Dataset</h4>
+                  <p className="text-gray-700 mb-3 text-sm md:text-base">
                     Interested in working with this Sentinel-2 imagery? Download the GeoTIFF file to follow along with the examples.
                   </p>
                   <a
                     href={`${basePath}/code/colab/Week3/Data_Small_Volume/Sentinel2_Export.tif`}
                     download="Sentinel2_Export.tif"
-                    className="inline-flex items-center bg-ucd-blue hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors shadow-md hover:shadow-lg"
+                    className="inline-flex items-center bg-ucd-blue hover:bg-blue-700 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg font-semibold transition-colors shadow-md hover:shadow-lg text-sm md:text-base w-full sm:w-auto"
                   >
-                    <Download className="w-5 h-5 mr-2" />
-                    Download Sentinel-2 GeoTIFF (Sentinel2_Export.tif)
+                    <Download className="w-4 h-4 md:w-5 md:h-5 mr-2 flex-shrink-0" />
+                    <span className="truncate sm:whitespace-normal">Download Sentinel-2 GeoTIFF (Sentinel2_Export.tif)</span>
                   </a>
                 </div>
               </div>
             </div>
 
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto">
               <div className="bg-white rounded-xl shadow-lg overflow-hidden">
                 <img 
                   src={`${basePath}/code/colab/Week3/Mohammadreza_Lab_Demo/Images/Step4_RGB_TrueColorComposite.png`}
@@ -122,10 +122,10 @@ const Lab3 = () => {
         {/* Video Tutorial Section */}
         <Section title="Video Tutorial: NumPy Fundamentals">
           <div className="space-y-6">
-            <p className="text-gray-600 text-lg max-w-3xl">
+            <p className="text-gray-600 text-lg max-w-4xl lg:max-w-5xl xl:max-w-6xl">
               Watch this comprehensive NumPy tutorial from FreeCodeCamp to get a solid foundation before diving into the lab exercises.
             </p>
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-4xl lg:max-w-5xl xl:max-w-6xl mx-auto">
               <div className="aspect-video bg-gray-100 rounded-xl overflow-hidden shadow-md">
                 <iframe 
                   width="100%" 
@@ -148,7 +148,7 @@ const Lab3 = () => {
         {/* Google Colab Setup */}
         <Section title="Setting Up Google Colab with Google Drive">
           <div className="space-y-6">
-            <p className="text-gray-600 text-lg max-w-3xl">
+            <p className="text-gray-600 text-lg max-w-4xl lg:max-w-5xl xl:max-w-6xl">
               To work with large raster datasets in Colab, you'll need to connect your Google Drive. This allows you to access data files stored in Drive without uploading them each session.
             </p>
             <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-ucd-blue">
@@ -169,7 +169,7 @@ const Lab3 = () => {
         {/* 1. NumPy Arrays */}
         <Section title="NumPy Arrays: The Foundation of Raster Processing">
           <div className="space-y-8">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto">
               <h3 className="font-bold text-xl text-gray-800 flex items-center mb-3">
                 <Database className="w-6 h-6 mr-3 text-ucd-blue" /> What is NumPy?
               </h3>
@@ -215,7 +215,7 @@ Data type: int64`}
             </div>
 
             {/* Rasterio Section */}
-            <div className="max-w-5xl mx-auto mt-8">
+            <div className="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto mt-8">
               <h3 className="font-bold text-xl text-gray-800 flex items-center mb-3">
                 <FileText className="w-6 h-6 mr-3 text-ucd-blue" /> Reading Raster Data with Rasterio
               </h3>
@@ -249,7 +249,7 @@ Data type: uint16`}
             </div>
 
             {/* Array Operations */}
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto">
               <h3 className="font-bold text-xl text-gray-800 flex items-center mb-3">
                 <Scissors className="w-6 h-6 mr-3 text-ucd-blue" /> Array Slicing & Indexing
               </h3>
@@ -328,7 +328,7 @@ bottom_right: (80, 80)`}
         {/* 2. For Loops */}
         <Section title="For Loops: Iterating Through Data">
           <div className="space-y-8">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto">
               <h3 className="font-bold text-xl text-gray-800 flex items-center mb-3">
                 <Repeat className="w-6 h-6 mr-3 text-ucd-blue" /> Using For Loops with Sentinel-2 Bands
               </h3>
@@ -378,7 +378,7 @@ plt.show()`}
             </div>
 
             {/* Nested Loops */}
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto">
               <h3 className="font-bold text-xl text-gray-800 flex items-center mb-3">
                 <RefreshCw className="w-6 h-6 mr-3 text-ucd-blue" /> Nested Loops
               </h3>
@@ -411,7 +411,7 @@ Row 2 average: 125.0`}
 
         {/* 3. List Comprehensions */}
         <Section title="List Comprehensions: Concise Data Processing">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto">
             <p className="text-gray-600 text-lg mb-6">
               List comprehensions provide a <strong>concise way</strong> to create lists. They're faster and 
               more Pythonic than traditional loops for simple transformations.
@@ -448,7 +448,7 @@ print(f"Squared NDVI: {squared_ndvi}")`}
 
         {/* 4. Conditional Statements */}
         <Section title="Conditional Statements: Making Decisions">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto">
             <p className="text-gray-600 text-lg mb-6">
               Use <code>if</code>, <code>elif</code>, and <code>else</code> to classify pixels, filter data, 
               or apply different processing based on conditions.
@@ -501,7 +501,7 @@ Class 4: 27,161 pixels`}
         {/* 5. Break and Continue */}
         <Section title="Break & Continue: Controlling Loop Flow">
           <div className="space-y-8">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto">
               <h3 className="font-bold text-xl text-gray-800 flex items-center mb-3">
                 <CheckSquare className="w-6 h-6 mr-3 text-ucd-blue" /> Using Break
               </h3>
@@ -522,7 +522,7 @@ for i in range(len(cities)):
               />
             </div>
 
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto">
               <h3 className="font-bold text-xl text-gray-800 flex items-center mb-3">
                 <RefreshCw className="w-6 h-6 mr-3 text-ucd-blue" /> Using Continue
               </h3>
@@ -555,7 +555,7 @@ Missing data points: 2`}
         {/* 6. NumPy Array Operations */}
         <Section title="NumPy Array Operations for Raster Analysis">
           <div className="space-y-8">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto">
               <h3 className="font-bold text-xl text-gray-800 flex items-center mb-3">
                 <Database className="w-6 h-6 mr-3 text-ucd-blue" /> Statistical Operations
               </h3>
@@ -586,7 +586,7 @@ Anomalies: [14.8 19.2]`}
               />
             </div>
 
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto">
               <h3 className="font-bold text-xl text-gray-800 flex items-center mb-3">
                 <ImageIcon className="w-6 h-6 mr-3 text-ucd-blue" /> Working with Multidimensional Arrays
               </h3>
@@ -625,7 +625,7 @@ Warmest city: Los Angeles (21.83°C)`}
         {/* 7. Visualizing Raster Data */}
         <Section title="Visualizing Raster Data with Matplotlib">
           <div className="space-y-8">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl lg:max-w-6xl xl:max-w-7xl mx-auto">
               <h3 className="font-bold text-xl text-gray-800 flex items-center mb-3">
                 <ImageIcon className="w-6 h-6 mr-3 text-ucd-blue" /> Displaying Images from NumPy Arrays
               </h3>

@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div className="w-full min-h-full">
       {/* Hero Section */}
-      <section className="bg-ucd-blue text-white py-24 relative overflow-hidden">
+      <section className="bg-ucd-blue text-white py-16 sm:py-20 md:py-24 relative overflow-visible">
         {/* Decorative background elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-96 h-96 bg-ucd-gold rounded-full blur-3xl animate-pulse"></div>
@@ -28,7 +28,7 @@ const Home = () => {
         }}></div>
         <div className="max-w-[95%] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <motion.div 
-            className="text-center"
+            className="text-center overflow-visible"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -37,8 +37,9 @@ const Home = () => {
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
+              className="overflow-visible"
             >
-              <h1 className="text-6xl md:text-7xl lg:text-8xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-ucd-gold-light to-white">
+              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-ucd-gold-light to-white" style={{ lineHeight: '1.15', paddingBottom: '0.75rem', paddingTop: '0.25rem' }}>
                 Environmental Analysis Using GIS
               </h1>
             </motion.div>
@@ -313,13 +314,14 @@ const Home = () => {
             </p>
           </motion.div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
             {weeks.map((week, idx) => (
               <motion.div
                 key={week.weekNumber}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
+                className="flex h-full"
               >
                 <WeekCard week={week} />
               </motion.div>
