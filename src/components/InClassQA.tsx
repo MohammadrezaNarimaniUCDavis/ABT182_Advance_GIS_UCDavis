@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Users, Plus, CheckCircle2, Circle, Clock, X } from 'lucide-react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
+import { Users, Plus, CheckCircle2, Circle, Clock, X, ChevronDown, ChevronUp } from 'lucide-react';
 import { db } from '../firebase';
 import { 
   collection, 
@@ -39,6 +39,9 @@ const InClassQA: React.FC<InClassQAProps> = ({ weekNumber }) => {
   const [adminPassword, setAdminPassword] = useState('');
   const [showAddForm, setShowAddForm] = useState(false);
   const [expandedEntries, setExpandedEntries] = useState<Set<string>>(new Set());
+  const [showAllSolved, setShowAllSolved] = useState(false);
+
+  const SOLVED_VISIBLE_COUNT = 5;
 
   // Load data from Firestore
   useEffect(() => {
@@ -323,6 +326,13 @@ const InClassQA: React.FC<InClassQAProps> = ({ weekNumber }) => {
 
   const unsolvedEntries = entries.filter(e => !e.solved);
   const solvedEntries = entries.filter(e => e.solved);
+  // Latest first for display; show only 5 when collapsed
+  const solvedNewestFirst = useMemo(
+    () => [...solvedEntries].sort((a, b) => b.createdAt - a.createdAt),
+    [solvedEntries]
+  );
+  const solvedToShow = showAllSolved ? solvedNewestFirst : solvedNewestFirst.slice(0, SOLVED_VISIBLE_COUNT);
+  const hasMoreSolved = solvedEntries.length > SOLVED_VISIBLE_COUNT;
 
   return (
     <div className="mt-16 border-t border-gray-200 pt-12">
@@ -721,7 +731,7 @@ const InClassQA: React.FC<InClassQAProps> = ({ weekNumber }) => {
                       </span>
                     </div>
                   </div>
-                  {solvedEntries.map((entry) => (
+                  {solvedToShow.map((entry) => (
                     <div
                       key={entry.id}
                       className="px-4 lg:px-6 py-4 bg-green-50/30 hover:bg-green-50/50 transition-colors border-l-4 border-green-400"
@@ -868,6 +878,27 @@ const InClassQA: React.FC<InClassQAProps> = ({ weekNumber }) => {
                       </div>
                     </div>
                   ))}
+                  {hasMoreSolved && (
+                    <div className="px-4 lg:px-6 py-4 bg-green-50/30 border-t border-green-200">
+                      <button
+                        type="button"
+                        onClick={() => setShowAllSolved((prev) => !prev)}
+                        className="flex items-center justify-center gap-2 w-full py-2 text-green-700 hover:text-green-800 font-semibold text-sm transition-colors"
+                      >
+                        {showAllSolved ? (
+                          <>
+                            <ChevronUp className="h-5 w-5" />
+                            View less
+                          </>
+                        ) : (
+                          <>
+                            <ChevronDown className="h-5 w-5" />
+                            View all ({solvedEntries.length - SOLVED_VISIBLE_COUNT} more)
+                          </>
+                        )}
+                      </button>
+                    </div>
+                  )}
                 </>
               )}
             </>
