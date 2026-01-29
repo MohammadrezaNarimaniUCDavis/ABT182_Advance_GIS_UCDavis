@@ -6,12 +6,12 @@ import { CodeBlock, Section, ResourceLink } from '../components/LessonComponents
 
 const Lab4 = () => {
   const basePath = import.meta.env.BASE_URL.replace(/\/$/, '')
-  const notebookPath = `${basePath}/code/colab/Week4/ABT182_Lab4_functions_plots.ipynb`
+  const notebookPath = `${basePath}/code/colab/Week4/ABT182_Lab4_function.ipynb`
 
   const handleDownload = () => {
     const link = document.createElement('a')
     link.href = notebookPath
-    link.download = 'ABT182_Lab4_functions_plots.ipynb'
+    link.download = 'ABT182_Lab4_function.ipynb'
     link.target = '_blank'
     document.body.appendChild(link)
     link.click()
@@ -46,7 +46,7 @@ const Lab4 = () => {
               <Download className="h-5 w-5 mr-3 flex-shrink-0 group-hover:scale-110 transition-transform" />
               <div className="text-left min-w-0 flex-1">
                 <div className="text-xs uppercase opacity-80">Download Notebook</div>
-                <div className="text-sm md:text-lg truncate">ABT182_Lab4_functions_plots.ipynb</div>
+                <div className="text-sm md:text-lg truncate">ABT182_Lab4_function.ipynb</div>
               </div>
             </button>
           </div>
