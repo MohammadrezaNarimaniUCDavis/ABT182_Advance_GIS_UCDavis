@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:  # Allow manual re-run from Actions tab
 
 permissions:
   contents: read
@@ -17,6 +18,7 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 10  # Fail sooner if runner never acquired; then re-run
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
