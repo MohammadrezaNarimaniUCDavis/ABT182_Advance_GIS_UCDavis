@@ -777,16 +777,9 @@ const InClassQA: React.FC<InClassQAProps> = ({ weekNumber }) => {
                           {formatTime(entry.createdAt)}
                         </div>
                         <div className="col-span-1 flex items-center justify-center">
-                          <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              handleToggleSolved(entry.id, true, e);
-                            }}
-                            className="p-1.5 lg:p-2 text-green-600 hover:text-green-700 transition-colors"
-                            title="Click to mark as unsolved"
-                          >
+                          <span className="p-1.5 lg:p-2 text-green-600 cursor-default" title="Solved (cannot be moved back)">
                             <CheckCircle2 className="h-4 w-4 lg:h-5 lg:w-5" />
-                          </button>
+                          </span>
                           {isAdmin && (
                             <button
                               onClick={(e) => {
@@ -821,16 +814,9 @@ const InClassQA: React.FC<InClassQAProps> = ({ weekNumber }) => {
                             </div>
                           </div>
                           <div className="flex items-center space-x-2 flex-shrink-0">
-                            <button
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                handleToggleSolved(entry.id, true, e);
-                              }}
-                              className="p-2 text-green-600 hover:text-green-700 transition-colors"
-                              title="Click to mark as unsolved"
-                            >
+                            <span className="p-2 text-green-600 cursor-default" title="Solved (cannot be moved back)">
                               <CheckCircle2 className="h-5 w-5" />
-                            </button>
+                            </span>
                             {isAdmin && (
                               <button
                                 onClick={(e) => {
