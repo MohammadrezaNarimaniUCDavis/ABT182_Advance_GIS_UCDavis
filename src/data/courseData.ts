@@ -187,6 +187,26 @@ export const weeks: Week[] = Array.from({ length: 10 }, (_, i) => {
       ]
     }
   }
+
+  // Week 5: GeoPandas & Vector Data
+  if (weekNum === 5) {
+    return {
+      weekNumber: weekNum,
+      title: `Week ${weekNum}`,
+      description: "Work with vector data using GeoPandas: shapefiles, reprojection, area, choropleths, and attribute joins.",
+      sessions: [
+        {
+          sessionNumber: 1,
+          title: "Lab 5",
+          description: "GeoPandas with Vector Data",
+          topics: ["Shapefiles", "Reprojection", "Area & statistics", "Choropleths", "Attribute join"],
+          pythonFeatures: ["geopandas.read_file", "to_crs", "merge", "plot with column"],
+          gisRecap: ["CRS", "Choropleth", "Spatial join"],
+          content: "Access Lab 5 materials here."
+        }
+      ]
+    }
+  }
   
   // Other weeks have 2 sessions
   return {

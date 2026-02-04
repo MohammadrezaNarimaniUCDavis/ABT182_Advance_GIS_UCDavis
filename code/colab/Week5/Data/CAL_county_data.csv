@@ -1,0 +1,465 @@
+ID Year,Year,Violent Crime,Food Insecurity,County,ID Geography,Slug Geography
+2021,2021,628.7819824,0.090999998,"Alameda County, CA",05000US06001,alameda-county-ca
+2021,2021,442.4778748,0.144999996,"Alpine County, CA",05000US06003,alpine-county-ca
+2021,2021,237.0707397,0.108999997,"Amador County, CA",05000US06005,amador-county-ca
+2021,2021,327.057312,0.142000005,"Butte County, CA",05000US06007,butte-county-ca
+2021,2021,327.2457275,0.122000001,"Calaveras County, CA",05000US06009,calaveras-county-ca
+2021,2021,200.9580536,0.137999997,"Colusa County, CA",05000US06011,colusa-county-ca
+2021,2021,336.0278015,0.085000001,"Contra Costa County, CA",05000US06013,contra-costa-county-ca
+2021,2021,609.1091919,0.166999996,"Del Norte County, CA",05000US06015,del-norte-county-ca
+2021,2021,217.5839386,0.090999998,"El Dorado County, CA",05000US06017,el-dorado-county-ca
+2021,2021,541.7792358,0.151999995,"Fresno County, CA",05000US06019,fresno-county-ca
+2021,2021,408.1413574,0.142000005,"Glenn County, CA",05000US06021,glenn-county-ca
+2021,2021,432.1358032,0.141000003,"Humboldt County, CA",05000US06023,humboldt-county-ca
+2021,2021,366.253479,0.192000002,"Imperial County, CA",05000US06025,imperial-county-ca
+2021,2021,600.453064,0.104999997,"Inyo County, CA",05000US06027,inyo-county-ca
+2021,2021,545.3378296,0.143000007,"Kern County, CA",05000US06029,kern-county-ca
+2021,2021,443.3772278,0.143999994,"Kings County, CA",05000US06031,kings-county-ca
+2021,2021,535.4731445,0.157000005,"Lake County, CA",05000US06033,lake-county-ca
+2021,2021,586.9299316,0.125,"Lassen County, CA",05000US06035,lassen-county-ca
+2021,2021,488.3460999,0.114,"Los Angeles County, CA",05000US06037,los-angeles-county-ca
+2021,2021,620.2355347,0.131999999,"Madera County, CA",05000US06039,madera-county-ca
+2021,2021,177.857254,0.074000001,"Marin County, CA",05000US06041,marin-county-ca
+2021,2021,431.4285583,0.134000003,"Mariposa County, CA",05000US06043,mariposa-county-ca
+2021,2021,640.4857788,0.135000005,"Mendocino County, CA",05000US06045,mendocino-county-ca
+2021,2021,555.3386841,0.150000006,"Merced County, CA",05000US06047,merced-county-ca
+2021,2021,504.7955627,0.147,"Modoc County, CA",05000US06049,modoc-county-ca
+2021,2021,262.0620422,0.085000001,"Mono County, CA",05000US06051,mono-county-ca
+2021,2021,420.6361389,0.104999997,"Monterey County, CA",05000US06053,monterey-county-ca
+2021,2021,397.681366,0.079000004,"Napa County, CA",05000US06055,napa-county-ca
+2021,2021,264.1900635,0.107000001,"Nevada County, CA",05000US06057,nevada-county-ca
+2021,2021,213.5828094,0.085000001,"Orange County, CA",05000US06059,orange-county-ca
+2021,2021,161.9986725,0.082999997,"Placer County, CA",05000US06061,placer-county-ca
+2021,2021,574.8222656,0.136000007,"Plumas County, CA",05000US06063,plumas-county-ca
+2021,2021,291.2445679,0.100000001,"Riverside County, CA",05000US06065,riverside-county-ca
+2021,2021,508.2410889,0.119000003,"Sacramento County, CA",05000US06067,sacramento-county-ca
+2021,2021,298.703064,0.075000003,"San Benito County, CA",05000US06069,san-benito-county-ca
+2021,2021,441.8844299,0.107000001,"San Bernardino County, CA",05000US06071,san-bernardino-county-ca
+2021,2021,327.7188416,0.096000001,"San Diego County, CA",05000US06073,san-diego-county-ca
+2021,2021,760.4639893,0.101999998,"San Francisco County, CA",05000US06075,san-francisco-county-ca
+2021,2021,787.3218384,0.123999998,"San Joaquin County, CA",05000US06077,san-joaquin-county-ca
+2021,2021,408.2250671,0.092,"San Luis Obispo County, CA",05000US06079,san-luis-obispo-county-ca
+2021,2021,209.1124573,0.068000004,"San Mateo County, CA",05000US06081,san-mateo-county-ca
+2021,2021,318.0505371,0.094999999,"Santa Barbara County, CA",05000US06083,santa-barbara-county-ca
+2021,2021,264.0883484,0.071999997,"Santa Clara County, CA",05000US06085,santa-clara-county-ca
+2021,2021,409.5258789,0.103,"Santa Cruz County, CA",05000US06087,santa-cruz-county-ca
+2021,2021,726.1367188,0.142000005,"Shasta County, CA",05000US06089,shasta-county-ca
+2021,2021,422.2259827,0.104999997,"Sierra County, CA",05000US06091,sierra-county-ca
+2021,2021,343.5554504,0.160999998,"Siskiyou County, CA",05000US06093,siskiyou-county-ca
+2021,2021,476.3002625,0.100000001,"Solano County, CA",05000US06095,solano-county-ca
+2021,2021,367.9194946,0.090000004,"Sonoma County, CA",05000US06097,sonoma-county-ca
+2021,2021,578.4520874,0.123999998,"Stanislaus County, CA",05000US06099,stanislaus-county-ca
+2021,2021,351.7974854,0.137999997,"Sutter County, CA",05000US06101,sutter-county-ca
+2021,2021,540.1375122,0.158000007,"Tehama County, CA",05000US06103,tehama-county-ca
+2021,2021,380.3293762,0.160999998,"Trinity County, CA",05000US06105,trinity-county-ca
+2021,2021,381.8076477,0.158999994,"Tulare County, CA",05000US06107,tulare-county-ca
+2021,2021,316.1567383,0.128000006,"Tuolumne County, CA",05000US06109,tuolumne-county-ca
+2021,2021,240.4896698,0.082000002,"Ventura County, CA",05000US06111,ventura-county-ca
+2021,2021,331.8894348,0.105999999,"Yolo County, CA",05000US06113,yolo-county-ca
+2021,2021,413.7271118,0.143999994,"Yuba County, CA",05000US06115,yuba-county-ca
+2020,2020,628.7819824,0.122000001,"Alameda County, CA",05000US06001,alameda-county-ca
+2020,2020,442.4778748,0.143000007,"Alpine County, CA",05000US06003,alpine-county-ca
+2020,2020,237.0707397,0.115999997,"Amador County, CA",05000US06005,amador-county-ca
+2020,2020,327.057312,0.159999996,"Butte County, CA",05000US06007,butte-county-ca
+2020,2020,327.2457275,0.122000001,"Calaveras County, CA",05000US06009,calaveras-county-ca
+2020,2020,200.9580536,0.118000001,"Colusa County, CA",05000US06011,colusa-county-ca
+2020,2020,336.0278015,0.101000004,"Contra Costa County, CA",05000US06013,contra-costa-county-ca
+2020,2020,609.1091919,0.164000005,"Del Norte County, CA",05000US06015,del-norte-county-ca
+2020,2020,217.5839386,0.107000001,"El Dorado County, CA",05000US06017,el-dorado-county-ca
+2020,2020,541.7792358,0.140000001,"Fresno County, CA",05000US06019,fresno-county-ca
+2020,2020,408.1413574,0.129999995,"Glenn County, CA",05000US06021,glenn-county-ca
+2020,2020,432.1358032,0.162,"Humboldt County, CA",05000US06023,humboldt-county-ca
+2020,2020,366.253479,0.142000005,"Imperial County, CA",05000US06025,imperial-county-ca
+2020,2020,600.453064,0.112000003,"Inyo County, CA",05000US06027,inyo-county-ca
+2020,2020,545.3378296,0.134000003,"Kern County, CA",05000US06029,kern-county-ca
+2020,2020,443.3772278,0.131999999,"Kings County, CA",05000US06031,kings-county-ca
+2020,2020,535.4731445,0.156000003,"Lake County, CA",05000US06033,lake-county-ca
+2020,2020,586.9299316,0.138999999,"Lassen County, CA",05000US06035,lassen-county-ca
+2020,2020,488.3460999,0.112000003,"Los Angeles County, CA",05000US06037,los-angeles-county-ca
+2020,2020,620.2355347,0.114,"Madera County, CA",05000US06039,madera-county-ca
+2020,2020,177.857254,0.094999999,"Marin County, CA",05000US06041,marin-county-ca
+2020,2020,431.4285583,0.142000005,"Mariposa County, CA",05000US06043,mariposa-county-ca
+2020,2020,640.4857788,0.136000007,"Mendocino County, CA",05000US06045,mendocino-county-ca
+2020,2020,555.3386841,0.130999997,"Merced County, CA",05000US06047,merced-county-ca
+2020,2020,504.7955627,0.155000001,"Modoc County, CA",05000US06049,modoc-county-ca
+2020,2020,262.0620422,0.107000001,"Mono County, CA",05000US06051,mono-county-ca
+2020,2020,420.6361389,0.094999999,"Monterey County, CA",05000US06053,monterey-county-ca
+2020,2020,397.681366,0.079999998,"Napa County, CA",05000US06055,napa-county-ca
+2020,2020,264.1900635,0.122000001,"Nevada County, CA",05000US06057,nevada-county-ca
+2020,2020,213.5828094,0.092,"Orange County, CA",05000US06059,orange-county-ca
+2020,2020,161.9986725,0.103,"Placer County, CA",05000US06061,placer-county-ca
+2020,2020,574.8222656,0.155000001,"Plumas County, CA",05000US06063,plumas-county-ca
+2020,2020,291.2445679,0.093999997,"Riverside County, CA",05000US06065,riverside-county-ca
+2020,2020,508.2410889,0.143999994,"Sacramento County, CA",05000US06067,sacramento-county-ca
+2020,2020,298.703064,0.056000002,"San Benito County, CA",05000US06069,san-benito-county-ca
+2020,2020,441.8844299,0.101000004,"San Bernardino County, CA",05000US06071,san-bernardino-county-ca
+2020,2020,327.7188416,0.109999999,"San Diego County, CA",05000US06073,san-diego-county-ca
+2020,2020,760.4639893,0.133000001,"San Francisco County, CA",05000US06075,san-francisco-county-ca
+2020,2020,787.3218384,0.128000006,"San Joaquin County, CA",05000US06077,san-joaquin-county-ca
+2020,2020,408.2250671,0.115999997,"San Luis Obispo County, CA",05000US06079,san-luis-obispo-county-ca
+2020,2020,209.1124573,0.082999997,"San Mateo County, CA",05000US06081,san-mateo-county-ca
+2020,2020,318.0505371,0.097999997,"Santa Barbara County, CA",05000US06083,santa-barbara-county-ca
+2020,2020,264.0883484,0.089000002,"Santa Clara County, CA",05000US06085,santa-clara-county-ca
+2020,2020,409.5258789,0.111000001,"Santa Cruz County, CA",05000US06087,santa-cruz-county-ca
+2020,2020,726.1367188,0.158999994,"Shasta County, CA",05000US06089,shasta-county-ca
+2020,2020,422.2259827,0.131999999,"Sierra County, CA",05000US06091,sierra-county-ca
+2020,2020,343.5554504,0.169,"Siskiyou County, CA",05000US06093,siskiyou-county-ca
+2020,2020,476.3002625,0.126000002,"Solano County, CA",05000US06095,solano-county-ca
+2020,2020,367.9194946,0.100000001,"Sonoma County, CA",05000US06097,sonoma-county-ca
+2020,2020,578.4520874,0.119000003,"Stanislaus County, CA",05000US06099,stanislaus-county-ca
+2020,2020,351.7974854,0.143999994,"Sutter County, CA",05000US06101,sutter-county-ca
+2020,2020,540.1375122,0.143999994,"Tehama County, CA",05000US06103,tehama-county-ca
+2020,2020,380.3293762,0.165000007,"Trinity County, CA",05000US06105,trinity-county-ca
+2020,2020,381.8076477,0.131999999,"Tulare County, CA",05000US06107,tulare-county-ca
+2020,2020,316.1567383,0.136000007,"Tuolumne County, CA",05000US06109,tuolumne-county-ca
+2020,2020,240.4896698,0.075999998,"Ventura County, CA",05000US06111,ventura-county-ca
+2020,2020,331.8894348,0.133000001,"Yolo County, CA",05000US06113,yolo-county-ca
+2020,2020,413.7271118,0.149000004,"Yuba County, CA",05000US06115,yuba-county-ca
+2019,2019,628.7819824,0.134000003,"Alameda County, CA",05000US06001,alameda-county-ca
+2019,2019,442.4778748,0.151999995,"Alpine County, CA",05000US06003,alpine-county-ca
+2019,2019,237.0707397,0.128000006,"Amador County, CA",05000US06005,amador-county-ca
+2019,2019,327.057312,0.170000002,"Butte County, CA",05000US06007,butte-county-ca
+2019,2019,327.2457275,0.129999995,"Calaveras County, CA",05000US06009,calaveras-county-ca
+2019,2019,200.9580536,0.112999998,"Colusa County, CA",05000US06011,colusa-county-ca
+2019,2019,336.0278015,0.111000001,"Contra Costa County, CA",05000US06013,contra-costa-county-ca
+2019,2019,609.1091919,0.167999998,"Del Norte County, CA",05000US06015,del-norte-county-ca
+2019,2019,217.5839386,0.116999999,"El Dorado County, CA",05000US06017,el-dorado-county-ca
+2019,2019,541.7792358,0.144999996,"Fresno County, CA",05000US06019,fresno-county-ca
+2019,2019,408.1413574,0.131999999,"Glenn County, CA",05000US06021,glenn-county-ca
+2019,2019,432.1358032,0.171000004,"Humboldt County, CA",05000US06023,humboldt-county-ca
+2019,2019,366.253479,0.150000006,"Imperial County, CA",05000US06025,imperial-county-ca
+2019,2019,600.453064,0.116999999,"Inyo County, CA",05000US06027,inyo-county-ca
+2019,2019,545.3378296,0.136000007,"Kern County, CA",05000US06029,kern-county-ca
+2019,2019,443.3772278,0.136000007,"Kings County, CA",05000US06031,kings-county-ca
+2019,2019,535.4731445,0.170000002,"Lake County, CA",05000US06033,lake-county-ca
+2019,2019,586.9299316,0.155000001,"Lassen County, CA",05000US06035,lassen-county-ca
+2019,2019,488.3460999,0.114,"Los Angeles County, CA",05000US06037,los-angeles-county-ca
+2019,2019,620.2355347,0.114,"Madera County, CA",05000US06039,madera-county-ca
+2019,2019,177.857254,0.104999997,"Marin County, CA",05000US06041,marin-county-ca
+2019,2019,431.4285583,0.156000003,"Mariposa County, CA",05000US06043,mariposa-county-ca
+2019,2019,640.4857788,0.144999996,"Mendocino County, CA",05000US06045,mendocino-county-ca
+2019,2019,555.3386841,0.131999999,"Merced County, CA",05000US06047,merced-county-ca
+2019,2019,504.7955627,0.150000006,"Modoc County, CA",05000US06049,modoc-county-ca
+2019,2019,262.0620422,0.108000003,"Mono County, CA",05000US06051,mono-county-ca
+2019,2019,420.6361389,0.094999999,"Monterey County, CA",05000US06053,monterey-county-ca
+2019,2019,397.681366,0.086000003,"Napa County, CA",05000US06055,napa-county-ca
+2019,2019,264.1900635,0.130999997,"Nevada County, CA",05000US06057,nevada-county-ca
+2019,2019,213.5828094,0.096000001,"Orange County, CA",05000US06059,orange-county-ca
+2019,2019,161.9986725,0.112999998,"Placer County, CA",05000US06061,placer-county-ca
+2019,2019,574.8222656,0.160999998,"Plumas County, CA",05000US06063,plumas-county-ca
+2019,2019,291.2445679,0.097999997,"Riverside County, CA",05000US06065,riverside-county-ca
+2019,2019,508.2410889,0.156000003,"Sacramento County, CA",05000US06067,sacramento-county-ca
+2019,2019,298.703064,0.059,"San Benito County, CA",05000US06069,san-benito-county-ca
+2019,2019,441.8844299,0.104000002,"San Bernardino County, CA",05000US06071,san-bernardino-county-ca
+2019,2019,327.7188416,0.116999999,"San Diego County, CA",05000US06073,san-diego-county-ca
+2019,2019,760.4639893,0.147,"San Francisco County, CA",05000US06075,san-francisco-county-ca
+2019,2019,787.3218384,0.133000001,"San Joaquin County, CA",05000US06077,san-joaquin-county-ca
+2019,2019,408.2250671,0.125,"San Luis Obispo County, CA",05000US06079,san-luis-obispo-county-ca
+2019,2019,209.1124573,0.090999998,"San Mateo County, CA",05000US06081,san-mateo-county-ca
+2019,2019,318.0505371,0.100000001,"Santa Barbara County, CA",05000US06083,santa-barbara-county-ca
+2019,2019,264.0883484,0.098999999,"Santa Clara County, CA",05000US06085,santa-clara-county-ca
+2019,2019,409.5258789,0.119999997,"Santa Cruz County, CA",05000US06087,santa-cruz-county-ca
+2019,2019,726.1367188,0.167999998,"Shasta County, CA",05000US06089,shasta-county-ca
+2019,2019,422.2259827,0.136000007,"Sierra County, CA",05000US06091,sierra-county-ca
+2019,2019,343.5554504,0.184,"Siskiyou County, CA",05000US06093,siskiyou-county-ca
+2019,2019,476.3002625,0.136999995,"Solano County, CA",05000US06095,solano-county-ca
+2019,2019,367.9194946,0.107000001,"Sonoma County, CA",05000US06097,sonoma-county-ca
+2019,2019,578.4520874,0.123000003,"Stanislaus County, CA",05000US06099,stanislaus-county-ca
+2019,2019,351.7974854,0.150000006,"Sutter County, CA",05000US06101,sutter-county-ca
+2019,2019,540.1375122,0.150999993,"Tehama County, CA",05000US06103,tehama-county-ca
+2019,2019,380.3293762,0.175999999,"Trinity County, CA",05000US06105,trinity-county-ca
+2019,2019,381.8076477,0.129999995,"Tulare County, CA",05000US06107,tulare-county-ca
+2019,2019,316.1567383,0.147,"Tuolumne County, CA",05000US06109,tuolumne-county-ca
+2019,2019,240.4896698,0.079000004,"Ventura County, CA",05000US06111,ventura-county-ca
+2019,2019,331.8894348,0.138999999,"Yolo County, CA",05000US06113,yolo-county-ca
+2019,2019,413.7271118,0.160999998,"Yuba County, CA",05000US06115,yuba-county-ca
+2018,2018,720.3139038,0.143000007,"Alameda County, CA",05000US06001,alameda-county-ca
+2018,2018,529.5675049,0.159999996,"Alpine County, CA",05000US06003,alpine-county-ca
+2018,2018,278.863739,0.140000001,"Amador County, CA",05000US06005,amador-county-ca
+2018,2018,298.5556946,0.179000005,"Butte County, CA",05000US06007,butte-county-ca
+2018,2018,255.6632385,0.137999997,"Calaveras County, CA",05000US06009,calaveras-county-ca
+2018,2018,199.5977173,0.116999999,"Colusa County, CA",05000US06011,colusa-county-ca
+2018,2018,366.0224915,0.119999997,"Contra Costa County, CA",05000US06013,contra-costa-county-ca
+2018,2018,582.2844238,0.178000003,"Del Norte County, CA",05000US06015,del-norte-county-ca
+2018,2018,227.6060638,0.128000006,"El Dorado County, CA",05000US06017,el-dorado-county-ca
+2018,2018,507.1209717,0.143999994,"Fresno County, CA",05000US06019,fresno-county-ca
+2018,2018,419.2375488,0.133000001,"Glenn County, CA",05000US06021,glenn-county-ca
+2018,2018,331.9706421,0.181999996,"Humboldt County, CA",05000US06023,humboldt-county-ca
+2018,2018,311.0401611,0.144999996,"Imperial County, CA",05000US06025,imperial-county-ca
+2018,2018,473.8825989,0.129999995,"Inyo County, CA",05000US06027,inyo-county-ca
+2018,2018,554.9863892,0.134000003,"Kern County, CA",05000US06029,kern-county-ca
+2018,2018,477.8502808,0.137999997,"Kings County, CA",05000US06031,kings-county-ca
+2018,2018,539.1101074,0.179000005,"Lake County, CA",05000US06033,lake-county-ca
+2018,2018,400.8157043,0.160999998,"Lassen County, CA",05000US06035,lassen-county-ca
+2018,2018,423.789032,0.122000001,"Los Angeles County, CA",05000US06037,los-angeles-county-ca
+2018,2018,616.2910156,0.119999997,"Madera County, CA",05000US06039,madera-county-ca
+2018,2018,184.9098206,0.115000002,"Marin County, CA",05000US06041,marin-county-ca
+2018,2018,419.2638855,0.158000007,"Mariposa County, CA",05000US06043,mariposa-county-ca
+2018,2018,509.6305847,0.151999995,"Mendocino County, CA",05000US06045,mendocino-county-ca
+2018,2018,614.3810425,0.138999999,"Merced County, CA",05000US06047,merced-county-ca
+2018,2018,670.635498,0.165000007,"Modoc County, CA",05000US06049,modoc-county-ca
+2018,2018,253.8248444,0.104999997,"Mono County, CA",05000US06051,mono-county-ca
+2018,2018,425.4485168,0.098999999,"Monterey County, CA",05000US06053,monterey-county-ca
+2018,2018,340.7971802,0.097000003,"Napa County, CA",05000US06055,napa-county-ca
+2018,2018,331.9961243,0.143000007,"Nevada County, CA",05000US06057,nevada-county-ca
+2018,2018,203.9479218,0.101000004,"Orange County, CA",05000US06059,orange-county-ca
+2018,2018,175.9430542,0.123000003,"Placer County, CA",05000US06061,placer-county-ca
+2018,2018,502.5559692,0.175999999,"Plumas County, CA",05000US06063,plumas-county-ca
+2018,2018,282.5920105,0.100000001,"Riverside County, CA",05000US06065,riverside-county-ca
+2018,2018,523.1734619,0.163000003,"Sacramento County, CA",05000US06067,sacramento-county-ca
+2018,2018,381.5687256,0.061000001,"San Benito County, CA",05000US06069,san-benito-county-ca
+2018,2018,409.0712891,0.105999999,"San Bernardino County, CA",05000US06071,san-bernardino-county-ca
+2018,2018,348.8049316,0.123000003,"San Diego County, CA",05000US06073,san-diego-county-ca
+2018,2018,792.9663086,0.159999996,"San Francisco County, CA",05000US06075,san-francisco-county-ca
+2018,2018,780.3789673,0.138999999,"San Joaquin County, CA",05000US06077,san-joaquin-county-ca
+2018,2018,379.3317261,0.134000003,"San Luis Obispo County, CA",05000US06079,san-luis-obispo-county-ca
+2018,2018,227.5557709,0.097999997,"San Mateo County, CA",05000US06081,san-mateo-county-ca
+2018,2018,333.2981262,0.103,"Santa Barbara County, CA",05000US06083,santa-barbara-county-ca
+2018,2018,253.8998871,0.104999997,"Santa Clara County, CA",05000US06085,santa-clara-county-ca
+2018,2018,394.0610962,0.126000002,"Santa Cruz County, CA",05000US06087,santa-cruz-county-ca
+2018,2018,690.6223145,0.180000007,"Shasta County, CA",05000US06089,shasta-county-ca
+2018,2018,380.0629883,0.160999998,"Sierra County, CA",05000US06091,sierra-county-ca
+2018,2018,269.1921997,0.195999995,"Siskiyou County, CA",05000US06093,siskiyou-county-ca
+2018,2018,467.6598816,0.144999996,"Solano County, CA",05000US06095,solano-county-ca
+2018,2018,362.5867004,0.115999997,"Sonoma County, CA",05000US06097,sonoma-county-ca
+2018,2018,533.0822144,0.134000003,"Stanislaus County, CA",05000US06099,stanislaus-county-ca
+2018,2018,305.910553,0.158000007,"Sutter County, CA",05000US06101,sutter-county-ca
+2018,2018,537.5836792,0.151999995,"Tehama County, CA",05000US06103,tehama-county-ca
+2018,2018,208.5480194,0.181999996,"Trinity County, CA",05000US06105,trinity-county-ca
+2018,2018,445.775116,0.126000002,"Tulare County, CA",05000US06107,tulare-county-ca
+2018,2018,220.2210846,0.156000003,"Tuolumne County, CA",05000US06109,tuolumne-county-ca
+2018,2018,205.0158691,0.082000002,"Ventura County, CA",05000US06111,ventura-county-ca
+2018,2018,317.3974304,0.144999996,"Yolo County, CA",05000US06113,yolo-county-ca
+2018,2018,386.930542,0.170000002,"Yuba County, CA",05000US06115,yuba-county-ca
+2017,2017,720.3099976,0.149000004,"Alameda County, CA",05000US06001,alameda-county-ca
+2017,2017,529.5700073,0.150000006,"Alpine County, CA",05000US06003,alpine-county-ca
+2017,2017,278.8599854,0.147,"Amador County, CA",05000US06005,amador-county-ca
+2017,2017,298.5599976,0.180000007,"Butte County, CA",05000US06007,butte-county-ca
+2017,2017,255.6600037,0.141000003,"Calaveras County, CA",05000US06009,calaveras-county-ca
+2017,2017,199.6000061,0.143000007,"Colusa County, CA",05000US06011,colusa-county-ca
+2017,2017,366.019989,0.125,"Contra Costa County, CA",05000US06013,contra-costa-county-ca
+2017,2017,582.2800293,0.187999994,"Del Norte County, CA",05000US06015,del-norte-county-ca
+2017,2017,227.6100006,0.129999995,"El Dorado County, CA",05000US06017,el-dorado-county-ca
+2017,2017,507.1199951,0.159999996,"Fresno County, CA",05000US06019,fresno-county-ca
+2017,2017,419.2399902,0.149000004,"Glenn County, CA",05000US06021,glenn-county-ca
+2017,2017,331.9700012,0.180000007,"Humboldt County, CA",05000US06023,humboldt-county-ca
+2017,2017,311.0400085,0.165999994,"Imperial County, CA",05000US06025,imperial-county-ca
+2017,2017,473.8800049,0.143000007,"Inyo County, CA",05000US06027,inyo-county-ca
+2017,2017,554.9899902,0.143000007,"Kern County, CA",05000US06029,kern-county-ca
+2017,2017,477.8500061,0.156000003,"Kings County, CA",05000US06031,kings-county-ca
+2017,2017,539.1099854,0.180999994,"Lake County, CA",05000US06033,lake-county-ca
+2017,2017,400.8200073,0.171000004,"Lassen County, CA",05000US06035,lassen-county-ca
+2017,2017,423.7900085,0.140000001,"Los Angeles County, CA",05000US06037,los-angeles-county-ca
+2017,2017,616.289978,0.134000003,"Madera County, CA",05000US06039,madera-county-ca
+2017,2017,184.9100037,0.115000002,"Marin County, CA",05000US06041,marin-county-ca
+2017,2017,419.2600098,0.163000003,"Mariposa County, CA",05000US06043,mariposa-county-ca
+2017,2017,509.6300049,0.157000005,"Mendocino County, CA",05000US06045,mendocino-county-ca
+2017,2017,614.3800049,0.155000001,"Merced County, CA",05000US06047,merced-county-ca
+2017,2017,670.6400146,0.175999999,"Modoc County, CA",05000US06049,modoc-county-ca
+2017,2017,253.8200073,0.120999999,"Mono County, CA",05000US06051,mono-county-ca
+2017,2017,425.4500122,0.118000001,"Monterey County, CA",05000US06053,monterey-county-ca
+2017,2017,340.7999878,0.105999999,"Napa County, CA",05000US06055,napa-county-ca
+2017,2017,332,0.142000005,"Nevada County, CA",05000US06057,nevada-county-ca
+2017,2017,203.9499969,0.108999997,"Orange County, CA",05000US06059,orange-county-ca
+2017,2017,175.9400024,0.126000002,"Placer County, CA",05000US06061,placer-county-ca
+2017,2017,502.5599976,0.180999994,"Plumas County, CA",05000US06063,plumas-county-ca
+2017,2017,282.5899963,0.115999997,"Riverside County, CA",05000US06065,riverside-county-ca
+2017,2017,523.1699829,0.166999996,"Sacramento County, CA",05000US06067,sacramento-county-ca
+2017,2017,381.5700073,0.090000004,"San Benito County, CA",05000US06069,san-benito-county-ca
+2017,2017,409.0700073,0.122000001,"San Bernardino County, CA",05000US06071,san-bernardino-county-ca
+2017,2017,348.7999878,0.133000001,"San Diego County, CA",05000US06073,san-diego-county-ca
+2017,2017,792.9699707,0.159999996,"San Francisco County, CA",05000US06075,san-francisco-county-ca
+2017,2017,780.3800049,0.156000003,"San Joaquin County, CA",05000US06077,san-joaquin-county-ca
+2017,2017,379.3299866,0.137999997,"San Luis Obispo County, CA",05000US06079,san-luis-obispo-county-ca
+2017,2017,227.5599976,0.101000004,"San Mateo County, CA",05000US06081,san-mateo-county-ca
+2017,2017,333.2999878,0.115000002,"Santa Barbara County, CA",05000US06083,santa-barbara-county-ca
+2017,2017,253.8999939,0.109999999,"Santa Clara County, CA",05000US06085,santa-clara-county-ca
+2017,2017,394.0599976,0.134000003,"Santa Cruz County, CA",05000US06087,santa-cruz-county-ca
+2017,2017,690.6199951,0.182999998,"Shasta County, CA",05000US06089,shasta-county-ca
+2017,2017,380.0599976,0.166999996,"Sierra County, CA",05000US06091,sierra-county-ca
+2017,2017,269.1900024,0.200000003,"Siskiyou County, CA",05000US06093,siskiyou-county-ca
+2017,2017,467.6600037,0.151999995,"Solano County, CA",05000US06095,solano-county-ca
+2017,2017,362.5899963,0.123999998,"Sonoma County, CA",05000US06097,sonoma-county-ca
+2017,2017,533.0800171,0.150000006,"Stanislaus County, CA",05000US06099,stanislaus-county-ca
+2017,2017,305.9100037,0.169,"Sutter County, CA",05000US06101,sutter-county-ca
+2017,2017,537.5800171,0.157000005,"Tehama County, CA",05000US06103,tehama-county-ca
+2017,2017,208.5500031,0.181999996,"Trinity County, CA",05000US06105,trinity-county-ca
+2017,2017,445.7799988,0.143999994,"Tulare County, CA",05000US06107,tulare-county-ca
+2017,2017,220.2200012,0.162,"Tuolumne County, CA",05000US06109,tuolumne-county-ca
+2017,2017,205.0200043,0.093999997,"Ventura County, CA",05000US06111,ventura-county-ca
+2017,2017,317.3999939,0.151999995,"Yolo County, CA",05000US06113,yolo-county-ca
+2017,2017,386.9299927,0.180999994,"Yuba County, CA",05000US06115,yuba-county-ca
+2016,2016,723.4899902,0.152999997,"Alameda County, CA",05000US06001,alameda-county-ca
+2016,2016,719.2199707,0.166999996,"Alpine County, CA",05000US06003,alpine-county-ca
+2016,2016,294.0799866,0.153999999,"Amador County, CA",05000US06005,amador-county-ca
+2016,2016,304.1099854,0.184,"Butte County, CA",05000US06007,butte-county-ca
+2016,2016,228.9299927,0.151999995,"Calaveras County, CA",05000US06009,calaveras-county-ca
+2016,2016,215.9199982,0.148000002,"Colusa County, CA",05000US06011,colusa-county-ca
+2016,2016,396.6000061,0.128999993,"Contra Costa County, CA",05000US06013,contra-costa-county-ca
+2016,2016,492.5899963,0.192000002,"Del Norte County, CA",05000US06015,del-norte-county-ca
+2016,2016,241.1900024,0.136000007,"El Dorado County, CA",05000US06017,el-dorado-county-ca
+2016,2016,543.0499878,0.165999994,"Fresno County, CA",05000US06019,fresno-county-ca
+2016,2016,254.2299957,0.155000001,"Glenn County, CA",05000US06021,glenn-county-ca
+2016,2016,333.7900085,0.188999996,"Humboldt County, CA",05000US06023,humboldt-county-ca
+2016,2016,303.980011,0.173999995,"Imperial County, CA",05000US06025,imperial-county-ca
+2016,2016,393.1400146,0.148000002,"Inyo County, CA",05000US06027,inyo-county-ca
+2016,2016,561.1400146,0.150999993,"Kern County, CA",05000US06029,kern-county-ca
+2016,2016,397.8800049,0.162,"Kings County, CA",05000US06031,kings-county-ca
+2016,2016,512.2800293,0.196999997,"Lake County, CA",05000US06033,lake-county-ca
+2016,2016,353.3299866,0.177000001,"Lassen County, CA",05000US06035,lassen-county-ca
+2016,2016,473.8999939,0.147,"Los Angeles County, CA",05000US06037,los-angeles-county-ca
+2016,2016,521.3499756,0.137999997,"Madera County, CA",05000US06039,madera-county-ca
+2016,2016,202.6999969,0.119000003,"Marin County, CA",05000US06041,marin-county-ca
+2016,2016,295.9500122,0.165999994,"Mariposa County, CA",05000US06043,mariposa-county-ca
+2016,2016,501.3599854,0.160999998,"Mendocino County, CA",05000US06045,mendocino-county-ca
+2016,2016,603.6799927,0.166999996,"Merced County, CA",05000US06047,merced-county-ca
+2016,2016,440,0.187000006,"Modoc County, CA",05000US06049,modoc-county-ca
+2016,2016,353.3800049,0.136000007,"Mono County, CA",05000US06051,mono-county-ca
+2016,2016,464.3099976,0.126000002,"Monterey County, CA",05000US06053,monterey-county-ca
+2016,2016,383.6300049,0.112000003,"Napa County, CA",05000US06055,napa-county-ca
+2016,2016,275.6400146,0.148000002,"Nevada County, CA",05000US06057,nevada-county-ca
+2016,2016,221.0599976,0.114,"Orange County, CA",05000US06059,orange-county-ca
+2016,2016,203.4100037,0.134000003,"Placer County, CA",05000US06061,placer-county-ca
+2016,2016,533.25,0.186000004,"Plumas County, CA",05000US06063,plumas-county-ca
+2016,2016,305.5299988,0.127000004,"Riverside County, CA",05000US06065,riverside-county-ca
+2016,2016,558.6400146,0.171000004,"Sacramento County, CA",05000US06067,sacramento-county-ca
+2016,2016,373.1099854,0.104999997,"San Benito County, CA",05000US06069,san-benito-county-ca
+2016,2016,430.5,0.131999999,"San Bernardino County, CA",05000US06071,san-bernardino-county-ca
+2016,2016,367.0299988,0.138999999,"San Diego County, CA",05000US06073,san-diego-county-ca
+2016,2016,702.6599731,0.166999996,"San Francisco County, CA",05000US06075,san-francisco-county-ca
+2016,2016,839.2199707,0.163000003,"San Joaquin County, CA",05000US06077,san-joaquin-county-ca
+2016,2016,281.9100037,0.143999994,"San Luis Obispo County, CA",05000US06079,san-luis-obispo-county-ca
+2016,2016,235.4900055,0.111000001,"San Mateo County, CA",05000US06081,san-mateo-county-ca
+2016,2016,400.5100098,0.120999999,"Santa Barbara County, CA",05000US06083,santa-barbara-county-ca
+2016,2016,262.1400146,0.120999999,"Santa Clara County, CA",05000US06085,santa-clara-county-ca
+2016,2016,443.3699951,0.138999999,"Santa Cruz County, CA",05000US06087,santa-cruz-county-ca
+2016,2016,756.9699707,0.187000006,"Shasta County, CA",05000US06089,shasta-county-ca
+2016,2016,424.4299927,0.187999994,"Sierra County, CA",05000US06091,sierra-county-ca
+2016,2016,293.5299988,0.204999998,"Siskiyou County, CA",05000US06093,siskiyou-county-ca
+2016,2016,445.6499939,0.151999995,"Solano County, CA",05000US06095,solano-county-ca
+2016,2016,366.2799988,0.130999997,"Sonoma County, CA",05000US06097,sonoma-county-ca
+2016,2016,515.3699951,0.160999998,"Stanislaus County, CA",05000US06099,stanislaus-county-ca
+2016,2016,356.1600037,0.182999998,"Sutter County, CA",05000US06101,sutter-county-ca
+2016,2016,558.210022,0.172000006,"Tehama County, CA",05000US06103,tehama-county-ca
+2016,2016,214.0200043,0.196999997,"Trinity County, CA",05000US06105,trinity-county-ca
+2016,2016,452.730011,0.150000006,"Tulare County, CA",05000US06107,tulare-county-ca
+2016,2016,198.9900055,0.166999996,"Tuolumne County, CA",05000US06109,tuolumne-county-ca
+2016,2016,205.0200043,0.104000002,"Ventura County, CA",05000US06111,ventura-county-ca
+2016,2016,269.25,0.159999996,"Yolo County, CA",05000US06113,yolo-county-ca
+2016,2016,401.0799866,0.193000004,"Yuba County, CA",05000US06115,yuba-county-ca
+2015,2015,723.4899902,0.156000003,"Alameda County, CA",05000US06001,alameda-county-ca
+2015,2015,719.2199707,0.152999997,"Alpine County, CA",05000US06003,alpine-county-ca
+2015,2015,294.0799866,0.144999996,"Amador County, CA",05000US06005,amador-county-ca
+2015,2015,304.1099854,0.181999996,"Butte County, CA",05000US06007,butte-county-ca
+2015,2015,228.9299927,0.147,"Calaveras County, CA",05000US06009,calaveras-county-ca
+2015,2015,215.9199982,0.175999999,"Colusa County, CA",05000US06011,colusa-county-ca
+2015,2015,396.6000061,0.131999999,"Contra Costa County, CA",05000US06013,contra-costa-county-ca
+2015,2015,492.5899963,0.187999994,"Del Norte County, CA",05000US06015,del-norte-county-ca
+2015,2015,241.1900024,0.128999993,"El Dorado County, CA",05000US06017,el-dorado-county-ca
+2015,2015,543.0499878,0.188999996,"Fresno County, CA",05000US06019,fresno-county-ca
+2015,2015,254.2299957,0.170000002,"Glenn County, CA",05000US06021,glenn-county-ca
+2015,2015,333.7900085,0.180000007,"Humboldt County, CA",05000US06023,humboldt-county-ca
+2015,2015,303.980011,0.226999998,"Imperial County, CA",05000US06025,imperial-county-ca
+2015,2015,393.1400146,0.143000007,"Inyo County, CA",05000US06027,inyo-county-ca
+2015,2015,561.1400146,0.171000004,"Kern County, CA",05000US06029,kern-county-ca
+2015,2015,397.8800049,0.184,"Kings County, CA",05000US06031,kings-county-ca
+2015,2015,512.2800293,0.199000001,"Lake County, CA",05000US06033,lake-county-ca
+2015,2015,353.3299866,0.173999995,"Lassen County, CA",05000US06035,lassen-county-ca
+2015,2015,473.8999939,0.163000003,"Los Angeles County, CA",05000US06037,los-angeles-county-ca
+2015,2015,521.3499756,0.162,"Madera County, CA",05000US06039,madera-county-ca
+2015,2015,202.6999969,0.115000002,"Marin County, CA",05000US06041,marin-county-ca
+2015,2015,295.9500122,0.152999997,"Mariposa County, CA",05000US06043,mariposa-county-ca
+2015,2015,501.3599854,0.162,"Mendocino County, CA",05000US06045,mendocino-county-ca
+2015,2015,603.6799927,0.194000006,"Merced County, CA",05000US06047,merced-county-ca
+2015,2015,440,0.174999997,"Modoc County, CA",05000US06049,modoc-county-ca
+2015,2015,353.3800049,0.143000007,"Mono County, CA",05000US06051,mono-county-ca
+2015,2015,464.3099976,0.149000004,"Monterey County, CA",05000US06053,monterey-county-ca
+2015,2015,383.6300049,0.119999997,"Napa County, CA",05000US06055,napa-county-ca
+2015,2015,275.6400146,0.137999997,"Nevada County, CA",05000US06057,nevada-county-ca
+2015,2015,221.0599976,0.122000001,"Orange County, CA",05000US06059,orange-county-ca
+2015,2015,203.4100037,0.127000004,"Placer County, CA",05000US06061,placer-county-ca
+2015,2015,533.25,0.174999997,"Plumas County, CA",05000US06063,plumas-county-ca
+2015,2015,305.5299988,0.144999996,"Riverside County, CA",05000US06065,riverside-county-ca
+2015,2015,558.6400146,0.171000004,"Sacramento County, CA",05000US06067,sacramento-county-ca
+2015,2015,373.1099854,0.136999995,"San Benito County, CA",05000US06069,san-benito-county-ca
+2015,2015,430.5,0.152999997,"San Bernardino County, CA",05000US06071,san-bernardino-county-ca
+2015,2015,367.0299988,0.145999998,"San Diego County, CA",05000US06073,san-diego-county-ca
+2015,2015,702.6599731,0.165000007,"San Francisco County, CA",05000US06075,san-francisco-county-ca
+2015,2015,839.2199707,0.179000005,"San Joaquin County, CA",05000US06077,san-joaquin-county-ca
+2015,2015,281.9100037,0.141000003,"San Luis Obispo County, CA",05000US06079,san-luis-obispo-county-ca
+2015,2015,235.4900055,0.114,"San Mateo County, CA",05000US06081,san-mateo-county-ca
+2015,2015,400.5100098,0.135000005,"Santa Barbara County, CA",05000US06083,santa-barbara-county-ca
+2015,2015,262.1400146,0.126000002,"Santa Clara County, CA",05000US06085,santa-clara-county-ca
+2015,2015,443.3699951,0.148000002,"Santa Cruz County, CA",05000US06087,santa-cruz-county-ca
+2015,2015,756.9699707,0.180999994,"Shasta County, CA",05000US06089,shasta-county-ca
+2015,2015,424.4299927,0.172000006,"Sierra County, CA",05000US06091,sierra-county-ca
+2015,2015,293.5299988,0.195999995,"Siskiyou County, CA",05000US06093,siskiyou-county-ca
+2015,2015,445.6499939,0.152999997,"Solano County, CA",05000US06095,solano-county-ca
+2015,2015,366.2799988,0.134000003,"Sonoma County, CA",05000US06097,sonoma-county-ca
+2015,2015,515.3699951,0.175999999,"Stanislaus County, CA",05000US06099,stanislaus-county-ca
+2015,2015,356.1600037,0.191,"Sutter County, CA",05000US06101,sutter-county-ca
+2015,2015,558.210022,0.179000005,"Tehama County, CA",05000US06103,tehama-county-ca
+2015,2015,214.0200043,0.187000006,"Trinity County, CA",05000US06105,trinity-county-ca
+2015,2015,452.730011,0.177000001,"Tulare County, CA",05000US06107,tulare-county-ca
+2015,2015,198.9900055,0.157000005,"Tuolumne County, CA",05000US06109,tuolumne-county-ca
+2015,2015,205.0200043,0.115999997,"Ventura County, CA",05000US06111,ventura-county-ca
+2015,2015,269.25,0.169,"Yolo County, CA",05000US06113,yolo-county-ca
+2015,2015,401.0799866,0.200000003,"Yuba County, CA",05000US06115,yuba-county-ca
+2014,2014,719.289978,0.162,"Alameda County, CA",05000US06001,alameda-county-ca
+2014,2014,880.539978,0.162,"Alpine County, CA",05000US06003,alpine-county-ca
+2014,2014,273.6900024,0.138999999,"Amador County, CA",05000US06005,amador-county-ca
+2014,2014,341.8399963,0.184,"Butte County, CA",05000US06007,butte-county-ca
+2014,2014,213.5,0.145999998,"Calaveras County, CA",05000US06009,calaveras-county-ca
+2014,2014,237.1999969,0.197999999,"Colusa County, CA",05000US06011,colusa-county-ca
+2014,2014,397.730011,0.137999997,"Contra Costa County, CA",05000US06013,contra-costa-county-ca
+2014,2014,436.9299927,0.186000004,"Del Norte County, CA",05000US06015,del-norte-county-ca
+2014,2014,257.3999939,0.130999997,"El Dorado County, CA",05000US06017,el-dorado-county-ca
+2014,2014,535.2199707,0.208000004,"Fresno County, CA",05000US06019,fresno-county-ca
+2014,2014,226.1000061,0.180999994,"Glenn County, CA",05000US06021,glenn-county-ca
+2014,2014,377.8099976,0.171000004,"Humboldt County, CA",05000US06023,humboldt-county-ca
+2014,2014,326.1300049,0.277999997,"Imperial County, CA",05000US06025,imperial-county-ca
+2014,2014,399.6099854,0.138999999,"Inyo County, CA",05000US06027,inyo-county-ca
+2014,2014,567.8900146,0.188999996,"Kern County, CA",05000US06029,kern-county-ca
+2014,2014,385.730011,0.199000001,"Kings County, CA",05000US06031,kings-county-ca
+2014,2014,460.4200134,0.202000007,"Lake County, CA",05000US06033,lake-county-ca
+2014,2014,318.8599854,0.173999995,"Lassen County, CA",05000US06035,lassen-county-ca
+2014,2014,510.1900024,0.179000005,"Los Angeles County, CA",05000US06037,los-angeles-county-ca
+2014,2014,470.5499878,0.181999996,"Madera County, CA",05000US06039,madera-county-ca
+2014,2014,209.6999969,0.115000002,"Marin County, CA",05000US06041,marin-county-ca
+2014,2014,255.8200073,0.150000006,"Mariposa County, CA",05000US06043,mariposa-county-ca
+2014,2014,567.7399902,0.158000007,"Mendocino County, CA",05000US06045,mendocino-county-ca
+2014,2014,590.9500122,0.215000004,"Merced County, CA",05000US06047,merced-county-ca
+2014,2014,241.1499939,0.182999998,"Modoc County, CA",05000US06049,modoc-county-ca
+2014,2014,380.2600098,0.142000005,"Mono County, CA",05000US06051,mono-county-ca
+2014,2014,491.4700012,0.164000005,"Monterey County, CA",05000US06053,monterey-county-ca
+2014,2014,411.9299927,0.125,"Napa County, CA",05000US06055,napa-county-ca
+2014,2014,293.25,0.130999997,"Nevada County, CA",05000US06057,nevada-county-ca
+2014,2014,229.7299957,0.127000004,"Orange County, CA",05000US06059,orange-county-ca
+2014,2014,217.8200073,0.125,"Placer County, CA",05000US06061,placer-county-ca
+2014,2014,552.9699707,0.175999999,"Plumas County, CA",05000US06063,plumas-county-ca
+2014,2014,314.5400085,0.157000005,"Riverside County, CA",05000US06065,riverside-county-ca
+2014,2014,586.9500122,0.172999993,"Sacramento County, CA",05000US06067,sacramento-county-ca
+2014,2014,395.0599976,0.159999996,"San Benito County, CA",05000US06069,san-benito-county-ca
+2014,2014,451.2200012,0.165000007,"San Bernardino County, CA",05000US06071,san-bernardino-county-ca
+2014,2014,383.4599915,0.150000006,"San Diego County, CA",05000US06073,san-diego-county-ca
+2014,2014,712.1500244,0.165999994,"San Francisco County, CA",05000US06075,san-francisco-county-ca
+2014,2014,812.4899902,0.194999993,"San Joaquin County, CA",05000US06077,san-joaquin-county-ca
+2014,2014,258.519989,0.141000003,"San Luis Obispo County, CA",05000US06079,san-luis-obispo-county-ca
+2014,2014,252.5399933,0.116999999,"San Mateo County, CA",05000US06081,san-mateo-county-ca
+2014,2014,429.0599976,0.140000001,"Santa Barbara County, CA",05000US06083,santa-barbara-county-ca
+2014,2014,266.3500061,0.134000003,"Santa Clara County, CA",05000US06085,santa-clara-county-ca
+2014,2014,474.0899963,0.156000003,"Santa Cruz County, CA",05000US06087,santa-cruz-county-ca
+2014,2014,750.6900024,0.180999994,"Shasta County, CA",05000US06089,shasta-county-ca
+2014,2014,379.9500122,0.165000007,"Sierra County, CA",05000US06091,sierra-county-ca
+2014,2014,353.25,0.195999995,"Siskiyou County, CA",05000US06093,siskiyou-county-ca
+2014,2014,467.9400024,0.156000003,"Solano County, CA",05000US06095,solano-county-ca
+2014,2014,381.7900085,0.135000005,"Sonoma County, CA",05000US06097,sonoma-county-ca
+2014,2014,507.8200073,0.192000002,"Stanislaus County, CA",05000US06099,stanislaus-county-ca
+2014,2014,358.3800049,0.202000007,"Sutter County, CA",05000US06101,sutter-county-ca
+2014,2014,582.1599731,0.187000006,"Tehama County, CA",05000US06103,tehama-county-ca
+2014,2014,213.5,0.194000006,"Trinity County, CA",05000US06105,trinity-county-ca
+2014,2014,470,0.197999999,"Tulare County, CA",05000US06107,tulare-county-ca
+2014,2014,230.6199951,0.157000005,"Tuolumne County, CA",05000US06109,tuolumne-county-ca
+2014,2014,222.8800049,0.126000002,"Ventura County, CA",05000US06111,ventura-county-ca
+2014,2014,270.8500061,0.175999999,"Yolo County, CA",05000US06113,yolo-county-ca
+2014,2014,396.2799988,0.213,"Yuba County, CA",05000US06115,yuba-county-ca
