@@ -68,28 +68,30 @@ const Lab5 = () => {
         <Section title="Data Sources (Get the Same Data)">
           <div className="space-y-6">
             <p className="text-gray-600 text-lg max-w-4xl">
-              Download USA states shapefile and population CSV to run the demo locally.
+              The demo uses USA states (shapefile) and state population (CSV). Use the links below to download the same data and run the demo or Lab 5–style workflows locally.
             </p>
             <div className="max-w-5xl space-y-6">
               <div className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
-                <h3 className="font-bold text-lg text-ucd-blue mb-2">1. USA States Shapefile</h3>
+                <h3 className="font-bold text-lg text-ucd-blue mb-2">1. USA States Shapefile (boundaries)</h3>
                 <p className="text-gray-600 mb-3">
-                  <strong>Source:</strong> U.S. Census Bureau TIGER/Line 2024.
+                  <strong>Source:</strong> U.S. Census Bureau TIGER/Line. State boundaries; the <code>NAME</code> column has state names for joining to the CSV.
                 </p>
                 <ul className="list-disc list-inside space-y-1 text-gray-700">
-                  <li><ResourceLink href="https://www2.census.gov/geo/tiger/TIGER2024/STATE/tl_2024_us_state.zip" text="Direct download (ZIP)" /></li>
+                  <li><ResourceLink href="https://www2.census.gov/geo/tiger/TIGER2024/STATE/tl_2024_us_state.zip" text="Direct download (ZIP): tl_2024_us_state" /></li>
+                  <li><ResourceLink href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php" text="Census shapefile picker" /> — choose <strong>Geography: State</strong>, <strong>Year: 2024</strong>, then download.</li>
                 </ul>
-                <p className="text-sm text-gray-500 mt-2">Unzip to <code>Data/tl_2024_us_state/tl_2024_us_state.shp</code>.</p>
+                <p className="text-sm text-gray-500 mt-2">Unzip into <code>tl_2024_us_state</code> under your <code>Data</code> folder. Path: <code>Data/tl_2024_us_state/tl_2024_us_state.shp</code>.</p>
               </div>
               <div className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
-                <h3 className="font-bold text-lg text-ucd-blue mb-2">2. State Population CSV</h3>
+                <h3 className="font-bold text-lg text-ucd-blue mb-2">2. State Population CSV (State, Year, Population)</h3>
                 <p className="text-gray-600 mb-3">
-                  <strong>Source:</strong> U.S. Census Bureau population estimates. Long format with columns: <code>State</code>, <code>Year</code>, <code>Population</code>.
+                  <strong>Source:</strong> U.S. Census Bureau population estimates. The demo expects <strong>long format</strong>: one row per state per year, columns <code>State</code>, <code>Year</code>, <code>Population</code>.
                 </p>
                 <ul className="list-disc list-inside space-y-1 text-gray-700">
-                  <li><ResourceLink href="https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv" text="Direct CSV" /> — reshape from wide to long format.</li>
+                  <li><ResourceLink href="https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html" text="Census page: State population estimates (2020s)" /> — under &quot;Vintage 2025&quot; find the CSV link for NST-EST2025-ALLDATA.</li>
+                  <li><ResourceLink href="https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv" text="Direct CSV: NST-EST2025-ALLDATA.csv" /> — wide format (one row per state; columns POPESTIMATE2020, POPESTIMATE2021, …). Reshape to long format (State, Year, Population) in Excel (Unpivot) or Python, then save as <code>US_state_data.csv</code>.</li>
                 </ul>
-                <p className="text-sm text-gray-500 mt-2">Pre-built <code>US_state_data.csv</code> (2020–2025) available in <code>Week5/Demo/Data/</code>.</p>
+                <p className="text-sm text-gray-500 mt-2">The repo <code>Week5/Demo/Data/</code> folder includes a pre-built <code>US_state_data.csv</code> in the correct format (2020–2025). See <code>Data/DATA_SOURCES.md</code> in the demo folder for full steps.</p>
               </div>
             </div>
           </div>

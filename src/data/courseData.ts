@@ -207,6 +207,26 @@ export const weeks: Week[] = Array.from({ length: 10 }, (_, i) => {
       ]
     }
   }
+
+  // Week 6: Python in ArcGIS Pro
+  if (weekNum === 6) {
+    return {
+      weekNumber: weekNum,
+      title: `Week ${weekNum}`,
+      description: "Automate GIS workflows using Python in ArcGIS Pro. Complete Esri's Python for Everyone course.",
+      sessions: [
+        {
+          sessionNumber: 1,
+          title: "Lab 6",
+          description: "Python for Everyone (Esri Course)",
+          topics: ["Python scripting", "ArcGIS Pro automation", "Script environments", "Geoprocessing tasks"],
+          pythonFeatures: ["Python in ArcGIS Pro", "Notebooks", "Script debugging", "Workflow automation"],
+          gisRecap: ["ArcGIS Python API", "Geoprocessing", "Data management", "Map automation"],
+          content: "Access Lab 6 materials here."
+        }
+      ]
+    }
+  }
   
   // Other weeks have 2 sessions
   return {
