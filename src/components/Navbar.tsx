@@ -169,7 +169,7 @@ const Navbar = () => {
             {showWeeksMenu && (
               <div className="pl-4 space-y-1">
                 {weeks.map((week) => {
-                  const isLocked = week.weekNumber > 5
+                  const isLocked = week.weekNumber > 6
                   if (isLocked) {
                     return (
                       <button
