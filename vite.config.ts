@@ -10,5 +10,8 @@ export default defineConfig(({ command }) => {
   return {
     plugins: [react()],
     base: basePath,
+    server: {
+      port: 5137,
+    },
   }
 })

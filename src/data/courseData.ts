@@ -227,6 +227,26 @@ export const weeks: Week[] = Array.from({ length: 10 }, (_, i) => {
       ]
     }
   }
+
+  // Week 7: ArcGIS Experience Builder
+  if (weekNum === 7) {
+    return {
+      weekNumber: weekNum,
+      title: `Week ${weekNum}`,
+      description: "Create web apps with ArcGIS Experience Builder. Build an interactive Yosemite trails app with maps, widgets, and data.",
+      sessions: [
+        {
+          sessionNumber: 1,
+          title: "Lab 7",
+          description: "ArcGIS Experience Builder Tutorial",
+          topics: ["Widgets", "Pages", "Data", "Actions", "Publishing"],
+          pythonFeatures: [],
+          gisRecap: ["Web maps", "Web scenes", "Feature layers", "Experience Builder", "Mobile optimization"],
+          content: "Access Lab 7 materials here."
+        }
+      ]
+    }
+  }
   
   // Other weeks have 2 sessions
   return {
