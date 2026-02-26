@@ -247,8 +247,26 @@ export const weeks: Week[] = Array.from({ length: 10 }, (_, i) => {
       ]
     }
   }
-  
-  // Other weeks have 2 sessions
+
+  // Week 8: Raster Analysis & Zonal Statistics
+  if (weekNum === 8) {
+    return {
+      weekNumber: weekNum,
+      title: `Week ${weekNum}`,
+      description: "Read multispectral imagery, compute NDVI, overlay vector zones, and run zonal statistics per polygon.",
+      sessions: [
+        {
+          sessionNumber: 1,
+          title: "Lab 8",
+          description: "Raster Data Analysis & Zonal Statistics",
+          topics: ["Raster read", "RGB visualization", "Vector overlay", "NDVI/NDRE", "Vegetation mask", "Zonal statistics", "Merge stats"],
+          pythonFeatures: ["rasterio", "geopandas", "rasterstats", "zonal_stats", "merge"],
+          gisRecap: ["Multispectral bands", "CRS", "NDVI", "Zonal statistics"],
+          content: "Access Lab 8 materials here."
+        }
+      ]
+    }
+  }
   return {
     weekNumber: weekNum,
     title: `Week ${weekNum}`,
