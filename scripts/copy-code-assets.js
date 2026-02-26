@@ -32,9 +32,13 @@ function copyRecursive(src, dest) {
 const week6Lab = path.join(root, 'code', 'colab', 'Week6', 'Lab_Instruction');
 const week7Lab = path.join(root, 'code', 'colab', 'Week7', 'Lab_Instruction');
 const week7Assignment = path.join(root, 'code', 'colab', 'Week7', 'Assignment');
+const week8Demo = path.join(root, 'code', 'colab', 'Week8', 'Demo');
+const week8Lab = path.join(root, 'code', 'colab', 'Week8', 'Lab');
 const publicWeek6 = path.join(root, 'public', 'code', 'colab', 'Week6', 'Lab_Instruction');
 const publicWeek7 = path.join(root, 'public', 'code', 'colab', 'Week7', 'Lab_Instruction');
 const publicWeek7Assignment = path.join(root, 'public', 'code', 'colab', 'Week7', 'Assignment');
+const publicWeek8Demo = path.join(root, 'public', 'code', 'colab', 'Week8', 'Demo');
+const publicWeek8Lab = path.join(root, 'public', 'code', 'colab', 'Week8', 'Lab');
 
 console.log('Copying code/colab assets to public/ for build...');
 if (fs.existsSync(week6Lab)) {
@@ -48,5 +52,13 @@ if (fs.existsSync(week7Lab)) {
 if (fs.existsSync(week7Assignment)) {
   copyRecursive(week7Assignment, publicWeek7Assignment);
   console.log('  ✓ Week7 Assignment');
+}
+if (fs.existsSync(week8Demo)) {
+  copyRecursive(week8Demo, publicWeek8Demo);
+  console.log('  ✓ Week8 Demo (including Images)');
+}
+if (fs.existsSync(week8Lab)) {
+  copyRecursive(week8Lab, publicWeek8Lab);
+  console.log('  ✓ Week8 Lab (notebook)');
 }
 console.log('Done.');
